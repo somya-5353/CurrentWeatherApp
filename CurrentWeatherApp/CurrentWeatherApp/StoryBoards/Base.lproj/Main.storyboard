@@ -15,36 +15,37 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="weather2" translatesAutoresizingMaskIntoConstraints="NO" id="EnP-LS-lS9">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foggy" translatesAutoresizingMaskIntoConstraints="NO" id="EnP-LS-lS9">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdq-dn-yHD">
-                                <rect key="frame" x="117" y="114" width="180" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bengaluru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdq-dn-yHD">
+                                <rect key="frame" x="117" y="294" width="180" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="180" id="NCr-yS-yxm"/>
-                                    <constraint firstAttribute="height" constant="40" id="SZn-y6-D3p"/>
+                                    <constraint firstAttribute="height" constant="45" id="SZn-y6-D3p"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="46"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <nil key="highlightedColor"/>
+                                <color key="highlightedColor" red="0.0" green="0.32852089410000002" blue="0.57488495110000004" alpha="0.69838934080000004" colorSpace="custom" customColorSpace="sRGB"/>
+                                <size key="shadowOffset" width="0.0" height="-5"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Gem-Pd-oVM">
-                                <rect key="frame" x="147" y="184" width="120" height="45"/>
+                                <rect key="frame" x="107" y="419" width="200" height="45"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="45" id="Aei-rC-9Eq"/>
-                                    <constraint firstAttribute="width" constant="120" id="It3-7d-siq"/>
+                                    <constraint firstAttribute="width" constant="200" id="It3-7d-siq"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxo-qR-VNK">
-                                <rect key="frame" x="117" y="672" width="180" height="40"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CELSIUS" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zxo-qR-VNK">
+                                <rect key="frame" x="147" y="544" width="120" height="40"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="180" id="424-g7-scn"/>
+                                    <constraint firstAttribute="width" constant="120" id="424-g7-scn"/>
                                     <constraint firstAttribute="height" constant="40" id="Rkd-UU-Uv1"/>
                                 </constraints>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <fontDescription key="fontDescription" name="DINCondensed-Bold" family="DIN Condensed" pointSize="40"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -52,20 +53,28 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="EnP-LS-lS9" secondAttribute="trailing" id="1Vw-JF-pTz"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="Zxo-qR-VNK" secondAttribute="bottom" constant="150" id="1Xk-tZ-aCx"/>
                             <constraint firstItem="Fdq-dn-yHD" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="7z4-Qb-2Kl"/>
                             <constraint firstItem="EnP-LS-lS9" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="BEM-Y1-Ls1"/>
                             <constraint firstItem="EnP-LS-lS9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="Mer-wM-s9A"/>
+                            <constraint firstItem="Zxo-qR-VNK" firstAttribute="top" secondItem="Gem-Pd-oVM" secondAttribute="bottom" constant="80" id="Rgu-8D-Kcf"/>
+                            <constraint firstItem="Gem-Pd-oVM" firstAttribute="top" secondItem="Fdq-dn-yHD" secondAttribute="bottom" constant="80" id="WrW-vW-972"/>
                             <constraint firstItem="Zxo-qR-VNK" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XRb-2B-d4X"/>
                             <constraint firstItem="Gem-Pd-oVM" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="XVk-1t-yjB"/>
-                            <constraint firstItem="Fdq-dn-yHD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="dpA-p7-eYd"/>
+                            <constraint firstItem="Fdq-dn-yHD" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="250" id="dpA-p7-eYd"/>
                             <constraint firstItem="EnP-LS-lS9" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="gu4-S1-pcd"/>
                             <constraint firstItem="EnP-LS-lS9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ocT-rS-Vyz"/>
                             <constraint firstAttribute="bottom" secondItem="EnP-LS-lS9" secondAttribute="bottom" id="sXf-Hd-8Ph"/>
-                            <constraint firstItem="Gem-Pd-oVM" firstAttribute="top" secondItem="Fdq-dn-yHD" secondAttribute="bottom" constant="30" id="z0l-do-FSM"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="backgroundImage" destination="EnP-LS-lS9" id="gGM-g3-F2A"/>
+                        <outlet property="celsiusLabel" destination="Zxo-qR-VNK" id="eHg-cz-RVb"/>
+                        <outlet property="cityLabel" destination="Fdq-dn-yHD" id="tWA-9l-3Zu"/>
+                        <outlet property="cityLabelConstraint" destination="dpA-p7-eYd" id="AoP-2e-aTb"/>
+                        <outlet property="temperatureCentreConstraint" destination="XVk-1t-yjB" id="hc4-Vf-pb7"/>
+                        <outlet property="temperatureLabel" destination="Gem-Pd-oVM" id="FJb-s9-jk5"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -73,6 +82,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="weather2" width="320" height="217.5"/>
+        <image name="foggy" width="640" height="426.5"/>
     </resources>
 </document>

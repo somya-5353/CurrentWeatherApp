@@ -15,6 +15,7 @@ class CurrentWeatherModel {
     var precipiceProbability: Int?
     var description: String?
     var icon: String?
+    var code: Int?
     
     /*"observation_time":"09:11 AM",
           "temperature":26,
@@ -42,6 +43,7 @@ class CurrentWeatherModel {
         static let precip = "precip"
         static let description = "weather_descriptions"
         static let icon = "weather_icons"
+        static let code = "weather_code"
     }
     
     init(weatherDictionary: [String:Any]) {
@@ -66,5 +68,6 @@ class CurrentWeatherModel {
         
         description = weatherDictionary[weatherKeys.description] as? String
         icon = weatherDictionary[weatherKeys.icon] as? String
+        code = weatherDictionary[weatherKeys.code] as? Int
     }
 }
