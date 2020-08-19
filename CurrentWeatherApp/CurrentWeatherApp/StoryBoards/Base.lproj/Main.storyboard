@@ -16,7 +16,7 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="foggy" translatesAutoresizingMaskIntoConstraints="NO" id="EnP-LS-lS9">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896.00000000000011"/>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Bengaluru" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Fdq-dn-yHD">
                                 <rect key="frame" x="117" y="294" width="180" height="45"/>
@@ -79,6 +79,22 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="139" y="96"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="X1w-TT-JTA">
+            <objects>
+                <viewController id="VUq-a5-V7T" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="44N-Eb-pNZ">
+                        <rect key="frame" x="0.0" y="0.0" width="400" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="AD3-v0-Rdj"/>
+                    </view>
+                    <size key="freeformSize" width="400" height="600"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MUZ-R9-cTu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1082" y="97"/>
         </scene>
     </scenes>
     <resources>
